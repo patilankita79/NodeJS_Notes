@@ -2,7 +2,7 @@
 Notes on Node.js 
 
 <hr>
-1. Node.js is a run-time environpment for executing server-side JavaScript code. It uses event driven, non-blocking model<br>
+1. Node.js is a run-time environment for executing server-side JavaScript code. It uses event driven, non-blocking model<br>
 2. Node.js package ecosystem - NPM (Node.js package manager), NPM allows packages and modules for node<br>
 3. package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is &nbsp; &nbsp;structured and what to do to install it.<br>
 &nbsp; &nbsp;package.json can be set either manually or using command => npm init<br>
