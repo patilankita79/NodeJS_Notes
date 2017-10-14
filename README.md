@@ -7,9 +7,7 @@
 <ol>
   <li>Node.js is a Javascript runtime that uses Chrome's V8 engine.</li>
   <li>V8 is a Open source Javascript engine written in C++ that take Javascript code and compiles into machine code. This engine is used inside of Node js and Chrome browser</li>
-  <li></li>
 </ol>
-<br> 
 
 ### What you can do with Node.js applications?
 <ol>
