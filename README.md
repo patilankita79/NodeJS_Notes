@@ -35,6 +35,7 @@
 ## NodeJS built-in modules 
 
 Node modules are similar to JS libraries <br>
+Complete list can be found <a href="https://nodejs.org/api/"> here.</a>
 Few built-in modules are mentioned in the following table.<br>
 
 <table>
@@ -67,5 +68,15 @@ Few built-in modules are mentioned in the following table.<br>
 &nbsp; &nbsp;package.json can be set either manually or using command => npm init<br>
 
 <hr>
+
+# Node JS fundamentals
+
+<ol>
+<li>Modules(built-in Node modules or 3rd party library or your own files) can be used in program using <b>require</b> function (Anology:<i> Can be thought as <b>import</b> statement in Java</i>)</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
 
 
