@@ -36,8 +36,6 @@ Asynchronous, event-based, non-blocking
 <li>All 3rd party libraries or modules, we can get from NPM as per the requirement of our application. </li>
 <li>Every 3rd party library present in NPM uses non-blocking I/O model</li>
 </ol>
- 
- <hr>
 
 ### NodeJS built-in modules 
 
@@ -71,9 +69,6 @@ Few built-in modules are mentioned in the following table.<br>
   
 </table>
 
-
-<hr>
-
 ### Using modules
 
 <p>Modules(built-in Node modules or 3rd party library or your own files) can be used in program using <b>require</b> function (Anology:<i> Can be thought as <b>import</b> statement in Java</i>)</p>
@@ -87,7 +82,6 @@ package.json can be set either manually or using command,</p>
 npm init
 ```
 
-<hr>
 
 # Working with JSON inside node.js
 
