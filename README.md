@@ -73,9 +73,38 @@ Few built-in modules are mentioned in the following table.<br>
 <ol>
 <li>Modules(built-in Node modules or 3rd party library or your own files) can be used in program using <b>require</b> function (Anology:<i> Can be thought as <b>import</b> statement in Java</i>)</li>
 <li>package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is structured and what to do to install it. package.json can be set either manually or using command => npm init</li>
-<li></li>
-<li></li>
-<li></li>
 </ol>
+
+# Working with JSON inside node.js
+
+### Write a JSON file
+
+```
+const fs = require('fs');
+
+var personObject = {
+  firstName: 'Ankita',
+  lastName: 'Patil'
+}
+
+//Converting object to string
+var personString = JSON.stringify(personObject)
+
+// Write a file into system, following command writes personString intoo demo.json, if demo.js is not present, demo.json is created
+fs.writeFileSync('demo.json', personString);
+
+```
+
+### Reading the contents of JSON file
+
+```
+var personContent = fs.readFileSync('demo.json');
+
+// Converting string back to object
+var person = JSON.parse(personContent)
+
+// Acessing object value
+console.log(person.firstName)
+```
 
 
