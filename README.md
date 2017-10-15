@@ -63,8 +63,7 @@ Few built-in modules are mentioned in the following table.<br>
   </tr>
   
 </table>
-<hr>
-<br>
+
 
 <hr>
 
@@ -75,6 +74,7 @@ Few built-in modules are mentioned in the following table.<br>
 <li>package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is structured and what to do to install it. package.json can be set either manually or using command => npm init</li>
 </ol>
 
+<hr>
 # Working with JSON inside node.js
 
 ### Write a JSON file
