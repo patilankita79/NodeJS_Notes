@@ -2,7 +2,9 @@
  Node.js is a run-time environment for executing server-side JavaScript code.
 
 <hr>
+
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Node JS Fundamentals
+
 <hr>
 
 ## What is Node.js?
@@ -114,5 +116,7 @@ console.log(person.firstName)
 <hr>
 
 <hr>
+
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Asynchronous Node.js
+
 <hr>
