@@ -75,8 +75,11 @@ Few built-in modules are mentioned in the following table.<br>
 
 
 ### package.json
-<p>package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is structured and what to do to install it. <br>
-package.json can be set either manually or using command,</p>
+<ul>
+<li>package.json is the main manifest file which should be present in the root of application.</li>
+<li>It tells NPM how your package is structured and what to do to install it.</li>
+</ul>  <br>
+<p>package.json can be set either manually or using command,</p>
 
 ```
 npm init
