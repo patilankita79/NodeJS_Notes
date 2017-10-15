@@ -7,20 +7,20 @@
 
 <hr>
 
-## What is Node.js?
+### What is Node.js?
 <ol>
   <li>Node.js is a Javascript runtime that uses Chrome's V8 engine.</li>
   <li>V8 is an Open source Javascript engine written in C++ that take Javascript code and compiles into machine code. This engine is used inside of Node js and Chrome browser</li>
 </ol>
 
-## What you can do with Node.js applications?
+### What you can do with Node.js applications?
 <ol>
 <li>Manipulate file system -> creating and removing folders</li>
 <li>Create databases</li>
 <li>Create web server</li>
 </ol>
 
-## Why Node.js? 
+### Why Node.js? 
 ```
 Asynchronous, event-based, non-blocking
 ```
@@ -29,7 +29,7 @@ Asynchronous, event-based, non-blocking
   <li>Node.js is single threaded, means the application runs in a single thread</li>
 </ol>
  
-## Node JS Package Ecosystem - Node.js Package Manager(NPM)
+### Node JS Package Ecosystem - Node.js Package Manager(NPM)
 <ol>
 <li>NPM is the package manager for Javascript</li>
 <li>NPM allows packages and modules for node</li>
@@ -39,7 +39,7 @@ Asynchronous, event-based, non-blocking
  
  <hr>
 
-## NodeJS built-in modules 
+### NodeJS built-in modules 
 
 Node modules are similar to JS libraries <br>
 Complete list can be found <a href="https://nodejs.org/api/"> here.</a>
@@ -74,12 +74,17 @@ Few built-in modules are mentioned in the following table.<br>
 
 <hr>
 
-# Node JS fundamentals
+### Using modules
 
-<ol>
-<li>Modules(built-in Node modules or 3rd party library or your own files) can be used in program using <b>require</b> function (Anology:<i> Can be thought as <b>import</b> statement in Java</i>)</li>
-<li>package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is structured and what to do to install it. package.json can be set either manually or using command => npm init</li>
-</ol>
+<p>Modules(built-in Node modules or 3rd party library or your own files) can be used in program using <b>require</b> function (Anology:<i> Can be thought as <b>import</b> statement in Java</i>)</p>
+<br>
+
+### package.json
+<p>package.json is the main manifest file which should be present in the root of application. Package.json tells NPM how your package is structured and what to do to install it. <br>
+package.json can be set either manually or using command,</p>
+```
+npm init
+```
 
 <hr>
 
@@ -123,3 +128,5 @@ console.log(person.firstName)
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Asynchronous Node.js
 
 <hr>
+
+
