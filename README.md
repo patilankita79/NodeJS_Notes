@@ -80,6 +80,7 @@ Few built-in modules are mentioned in the following table.<br>
 ### Write a JSON file
 
 ```
+// Load file system module
 const fs = require('fs');
 
 var personObject = {
