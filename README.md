@@ -90,7 +90,7 @@ var personObject = {
 //Converting object to string
 var personString = JSON.stringify(personObject)
 
-// Write a file into system, following command writes personString intoo demo.json, if demo.js is not present, demo.json is created
+// Write a file into system, following command creates a file (if not present) and writes personString into demo.json
 fs.writeFileSync('demo.json', personString);
 
 ```
