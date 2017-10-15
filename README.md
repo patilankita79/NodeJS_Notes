@@ -75,6 +75,7 @@ Few built-in modules are mentioned in the following table.<br>
 </ol>
 
 <hr>
+
 # Working with JSON inside node.js
 
 ### Write a JSON file
