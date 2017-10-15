@@ -126,5 +126,6 @@ console.log(person.firstName)
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Asynchronous Node.js
 
 <hr>
-
+In simple terms, <br>
+Asynchronous is when you don't halt your program, for example when you are making requests to the internet, which is inherently asynchronous. app will continue to run while it waits for someting else to happen <br>If you were to do a sychronous call to some API on the internet then the app would freeze up until the response came back.
 
