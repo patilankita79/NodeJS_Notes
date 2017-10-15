@@ -20,7 +20,10 @@
 <li>Create web server</li>
 </ol>
 
-## Why Node.js?
+## Why Node.js? 
+```
+Asynchronous, event-based, non-blocking
+```
 <ol>
   <li>Node.js uses event driven, non-blocking I/O model</li>
   <li>Node.js is single threaded, means the application runs in a single thread</li>
