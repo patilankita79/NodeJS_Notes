@@ -136,6 +136,6 @@ It is defined as a function that gets passed as an argument to another function,
 ```
 setTimeout(() => {
 console.log('Inside callback function');
-}, 2000)
+}, 2000);
 ```
 
