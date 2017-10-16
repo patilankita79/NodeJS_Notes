@@ -129,4 +129,13 @@ console.log(person.firstName)
 In simple terms, <br>
 Asynchronous is when you don't halt your program, for example when you are making requests to the internet, which is inherently asynchronous. app will continue to run while it waits for someting else to happen <br>If you were to do a sychronous call to some API on the internet then the app would freeze up until the response came back.
 
+### Callback function
+
+It is defined as a function that gets passed as an argument to another function, and is executed after some event.
+
+```
+setTimeout(() => {
+console.log('Inside callback function');
+}, 2000)
+```
 
