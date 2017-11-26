@@ -138,4 +138,8 @@ setTimeout(() => {
 console.log('Inside callback function');
 }, 2000);
 ```
+<hr>
 
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Promises
+
+<hr>
