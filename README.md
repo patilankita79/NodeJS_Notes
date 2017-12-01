@@ -143,3 +143,12 @@ console.log('Inside callback function');
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Promises
 
 <hr>
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Web server using Node.JS
+
+<hr>
+
+Web server can be created with the help of a library called <a href="http://expressjs.com/">express</a>.
+
