@@ -152,3 +152,43 @@ console.log('Inside callback function');
 
 Web server can be created with the help of a library called <a href="http://expressjs.com/">express</a>.
 
+
+### A simple web server using express
+
+```
+//load express
+const express = require('express');
+
+var app = express();
+
+/*
+setting http route handlers
+*/
+
+//register handler using app.get
+app.get('/', (req, res) => {
+
+  // if the user makes a request, he will get response for the http request
+  //response for the http request
+  // res.send('<h1>Hello Express</h1>');
+
+  res.send({
+    name: 'Ankita'
+  })
+});
+
+app.get('/about', (req, res) => {
+  res.send('<h1>About page</h1>')
+});
+
+// /bad -> send back json with errorMessage
+app.get('/bad', (req, res) => {
+  res.send({
+    errorMessage:'Unable to handle request'
+  });
+});
+
+// bind application to port on a machine
+app.listen(3000);
+```
+
