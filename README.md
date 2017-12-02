@@ -200,9 +200,14 @@ app.listen(3000);
 
 1. Using <a href="https://mochajs.org/">Mocha</a> framework
 
+<blockquote>A test case is function that runs some code. If things go well, test case is considered to have passed otherwise test case is considered to have failed</blockquote>
+
 ```
 npm install mocha --save-dev
 ```
 
 flag save-dev will save mocha for development purpose only. The dependecy will be installed only locally and Hence, mocha will not run in  app or deployed app. It will be saved under "devDependencies" in package.json
 <br>
+<ul>
+ <li>In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework)</li>
+</ul>
