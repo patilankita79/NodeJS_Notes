@@ -192,3 +192,17 @@ app.get('/bad', (req, res) => {
 app.listen(3000);
 ```
 
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Testing NodeJs applications
+
+<hr>
+
+1. Using <a href="https://mochajs.org/">Mocha</a> framework
+
+```
+npm install mocha --save-dev
+```
+
+flag save-dev will save mocha for development purpose only. The dependecy will be installed only locally and Hence, mocha will not run in  app or deployed app. It will be saved under "devDependencies" in package.json
+<br>
