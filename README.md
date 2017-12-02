@@ -216,3 +216,72 @@ flag save-dev will save mocha for development purpose only. The dependecy will b
 ```
 npm install expect@1.20.2 --save-dev
 ```
+
+## Code Snippet 
+utils.js
+
+```
+module.exports.add = (a, b) => a + b;
+
+module.exports.square = (x) => x * x ;
+
+module.exports.setName = (user, fullName) => {
+  var names = fullName.split(' ');
+  user.firstName = names[0];
+  user.lastName = names[1];
+
+  return user;
+};
+```
+
+
+utils.test.js
+
+```
+const expect = require('expect');
+const utils = require('./utils');
+
+it('should add two numbers', () => {
+  var res = utils.add(12, 13);
+
+  expect(res).toBe(25).toBeA('number');
+ });
+
+
+ it('should square a number', () => {
+   var res = utils.square(9);
+
+   expect(res).toBe(81).toBeA('number');
+ });
+
+ // it('should expect some values', () => {
+ //   //expect(12).toNotBe(12);
+ //
+ //   //expect({name: 'Ankita'}).toEqual({name: 'Ankita'});
+ //
+ //   //expect([2,3,4]).toInclude(2);
+ //   //expect([2,3,4]).toExclude(5);
+ //
+ //   expect({
+ //     name: 'Ankita',
+ //     location: 'TX'
+ //   }).toInclude({
+ //     location: 'TX'
+ //   })
+ // });
+
+ // a test to verify first and last names are set
+ // assert it includes firstname and lastname with proper values
+
+ it('should set firstName and lastName', () => {
+   var user = {location: 'US', age: 23};
+
+   var res = utils.setName(user, 'Ankita Patil');
+
+   //expect(user).toEqual(res);
+   expect(res).toInclude({
+     firstName: 'Ankita',
+     lastName: 'Patil'
+   })
+ });
+```
