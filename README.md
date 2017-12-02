@@ -285,3 +285,11 @@ it('should add two numbers', () => {
    })
  });
 ```
+
+### Testing Express Applications
+
+Use <a href="https://github.com/visionmedia/supertest">supertest</a> library
+
+```
+npm install supertest --save-dev
+```
