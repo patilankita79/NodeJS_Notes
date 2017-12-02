@@ -209,7 +209,7 @@ npm install mocha --save-dev
 flag save-dev will save mocha for development purpose only. The dependecy will be installed only locally and Hence, mocha will not run in  app or deployed app. It will be saved under "devDependencies" in package.json
 <br>
 
- In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework). Refer <a href="https://github.com/patilankita79/BasicTestingUsingMocha">this</a> repository for example and code snippet
+ In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework). <br>Refer <a href="https://github.com/patilankita79/BasicTestingUsingMocha">this</a> repository for example and code snippet
  <hr>
   Using an assertion library -> This library lets you make assertions about the values, type, etc. Refer <a href="https://github.com/mjackson/expect">mjackson expect library</a>
 
@@ -293,3 +293,5 @@ Use <a href="https://github.com/visionmedia/supertest">supertest</a> library
 ```
 npm install supertest --save-dev
 ```
+
+<br>Refer <a href="https://github.com/patilankita79/TestingExpressApplicationUsingMocha">this</a> repository for example and code snippet
