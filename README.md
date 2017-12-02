@@ -211,7 +211,7 @@ flag save-dev will save mocha for development purpose only. The dependecy will b
 
  In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework). Refer <a href="https://github.com/patilankita79/BasicTestingUsingMocha">this</a> repository for example and code snippet
  <hr>
-  Using an assertion library -> This library lets you make assertions about the values, type, etc. Refer <a href="https://github.com/mjackson/expect">mjackson expect library
+  Using an assertion library -> This library lets you make assertions about the values, type, etc. Refer <a href="https://github.com/mjackson/expect">mjackson expect library</a>
 
 ```
 npm install expect@1.20.2 --save-dev
