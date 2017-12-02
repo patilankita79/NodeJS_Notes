@@ -208,6 +208,11 @@ npm install mocha --save-dev
 
 flag save-dev will save mocha for development purpose only. The dependecy will be installed only locally and Hence, mocha will not run in  app or deployed app. It will be saved under "devDependencies" in package.json
 <br>
-<ul>
- <li>In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework)</li>
-</ul>
+
+ In mocha, new test is created using <b>it</b> (It is a function provided by Mocha framework)
+ <hr>
+  Using an assertion library -> This library lets you make assertions about the values, type, etc. Refer <a href="https://github.com/mjackson/expect">mjackson expect library
+
+```
+npm install expect@1.20.2 --save-dev
+```
