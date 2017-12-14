@@ -150,6 +150,36 @@ console.log('Inside callback function');
 
 <hr>
 
+### A simple web server using HTTP module
+
+```
+/*
+We need to require http module and bind our server to port 3000 to listen.
+*/
+
+const http = require('http');
+const PORT = 3000;
+
+// Request handler
+//requesthandler function will be invoked every time a request hits the server
+const requesthandler = (req, res) => {
+  console.log(req.url);
+  res.end('<h1>Hello World</h1>');
+}
+
+const server = http.createServer(requesthandler);
+
+server.listen(PORT, (err) => {
+  if(err) {
+    console.error("Something bad happened", err);
+  }
+  console.log(`Server is listening to port ${PORT}`);
+})
+
+```
+
+<hr>
+
 Web server can be created with the help of a library called <a href="http://expressjs.com/">express</a>.
 
 
