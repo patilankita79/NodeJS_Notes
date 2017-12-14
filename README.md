@@ -29,6 +29,8 @@ Asynchronous, event-based, non-blocking
   <li>Node.js is single threaded, means the application runs in a single thread</li>
 </ol>
  
+ In node.js, all the users are sharing the same thread. Events are raised and registered in an event queue and then handled in a sequence they were raised. This nature of NodeJS is called non-blocking, event driven I/O. We have a single thread that will respond to the events in order they were raised. This thread behaves asynchronously because it does not have to wait for the resources to finish doing what they are doing before our thread can do anything else
+ 
 ### Node JS Package Ecosystem - Node.js Package Manager(NPM)
 <ol>
 <li>NPM is the package manager for Javascript</li>
